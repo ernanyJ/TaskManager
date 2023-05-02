@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class Management {
     private List<User> userList = new ArrayList<>();
-    private List<Task> taskList = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
 
     public void addUser() {
